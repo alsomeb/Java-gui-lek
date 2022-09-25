@@ -9,6 +9,7 @@ public class GeneratedPerson extends JPanel {
     private JLabel person;
 
     public GeneratedPerson() throws FileNotFoundException {
+        this.setBackground(Color.decode("#DDCA7D"));
         this.setPreferredSize(new Dimension(400, 20));
         this.setLayout(new BorderLayout());
 

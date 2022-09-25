@@ -9,6 +9,7 @@ public class Footer extends JPanel{
 
     public Footer(){
         this.setPreferredSize(new Dimension(400, 60));
+        this.setBackground(Color.decode("#E6D79E"));
 
         // Buttons
         generatePersonButton = new JButton("Generate");
